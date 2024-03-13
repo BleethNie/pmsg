@@ -1,4 +1,4 @@
-module github.com/lenye/pmsg
+module github.com/BleethNie/pmsg
 
 go 1.21.1
 
