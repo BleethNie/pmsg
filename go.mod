@@ -1,6 +1,6 @@
 module github.com/lenye/pmsg
 
-go 1.22.1
+go 1.21.1
 
 require github.com/spf13/cobra v1.8.0
 
