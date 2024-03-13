@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/lenye/pmsg/internal/im/weixin"
-	"github.com/lenye/pmsg/internal/im/weixin/client"
-	"github.com/lenye/pmsg/internal/im/weixin/work"
+	"github.com/BleethNie/pmsg/internal/im/weixin"
+	"github.com/BleethNie/pmsg/internal/im/weixin/client"
+	"github.com/BleethNie/pmsg/internal/im/weixin/work"
 )
 
 const (

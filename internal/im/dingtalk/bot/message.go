@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lenye/pmsg/internal/im/dingtalk"
-	"github.com/lenye/pmsg/internal/im/dingtalk/client"
+	"github.com/BleethNie/pmsg/internal/im/dingtalk"
+	"github.com/BleethNie/pmsg/internal/im/dingtalk/client"
 )
 
 const (

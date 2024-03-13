@@ -17,8 +17,8 @@ package bot
 import (
 	"fmt"
 
-	"github.com/lenye/pmsg/internal/im/feishu"
-	"github.com/lenye/pmsg/internal/im/feishu/client"
+	"github.com/BleethNie/pmsg/internal/im/feishu"
+	"github.com/BleethNie/pmsg/internal/im/feishu/client"
 )
 
 const (

@@ -19,8 +19,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/lenye/pmsg/pkg/helper"
-	"github.com/lenye/pmsg/pkg/httpclient"
+	"github.com/BleethNie/pmsg/pkg/helper"
+	"github.com/BleethNie/pmsg/pkg/httpclient"
 )
 
 // CheckHttpResponseStatusCode 检查HTTP响应状态码

@@ -15,7 +15,7 @@
 package bot
 
 import (
-	"github.com/lenye/pmsg/internal/im/slack/client"
+	"github.com/BleethNie/pmsg/internal/im/slack/client"
 )
 
 // Send 发送消息

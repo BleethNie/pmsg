@@ -17,8 +17,8 @@ package bot
 import (
 	"fmt"
 
-	"github.com/lenye/pmsg/internal/im/slack"
-	"github.com/lenye/pmsg/pkg/httpclient"
+	"github.com/BleethNie/pmsg/internal/im/slack"
+	"github.com/BleethNie/pmsg/pkg/httpclient"
 )
 
 type CmdSendParams struct {

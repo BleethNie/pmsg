@@ -26,7 +26,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/lenye/pmsg/pkg/version"
+	"github.com/BleethNie/pmsg/pkg/version"
 )
 
 var ErrRequest = errors.New("http request error")

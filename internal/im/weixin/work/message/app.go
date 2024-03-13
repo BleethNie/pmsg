@@ -19,9 +19,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/lenye/pmsg/internal/im/weixin"
-	"github.com/lenye/pmsg/internal/im/weixin/client"
-	"github.com/lenye/pmsg/internal/im/weixin/work"
+	"github.com/BleethNie/pmsg/internal/im/weixin"
+	"github.com/BleethNie/pmsg/internal/im/weixin/client"
+	"github.com/BleethNie/pmsg/internal/im/weixin/work"
 )
 
 // 企业微信应用消息 类型

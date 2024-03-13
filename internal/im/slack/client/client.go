@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/lenye/pmsg/internal/im/slack"
-	"github.com/lenye/pmsg/pkg/httpclient"
+	"github.com/BleethNie/pmsg/internal/im/slack"
+	"github.com/BleethNie/pmsg/pkg/httpclient"
 )
 
 // PostJSON http post json

@@ -17,8 +17,8 @@ package token
 import (
 	"fmt"
 
-	"github.com/lenye/pmsg/internal/im/weixin"
-	"github.com/lenye/pmsg/pkg/httpclient"
+	"github.com/BleethNie/pmsg/internal/im/weixin"
+	"github.com/BleethNie/pmsg/pkg/httpclient"
 )
 
 type CmdWorkTokenParams struct {

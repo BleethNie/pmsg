@@ -19,10 +19,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/lenye/pmsg/internal/flags"
-	"github.com/lenye/pmsg/internal/im/weixin"
-	"github.com/lenye/pmsg/internal/im/weixin/token"
-	"github.com/lenye/pmsg/pkg/httpclient"
+	"github.com/BleethNie/pmsg/internal/flags"
+	"github.com/BleethNie/pmsg/internal/im/weixin"
+	"github.com/BleethNie/pmsg/internal/im/weixin/token"
+	"github.com/BleethNie/pmsg/pkg/httpclient"
 )
 
 type CmdMpSendTemplateSubscribeParams struct {

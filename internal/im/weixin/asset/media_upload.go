@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lenye/pmsg/internal/im/weixin"
-	"github.com/lenye/pmsg/internal/im/weixin/client"
+	"github.com/BleethNie/pmsg/internal/im/weixin"
+	"github.com/BleethNie/pmsg/internal/im/weixin/client"
 )
 
 const (

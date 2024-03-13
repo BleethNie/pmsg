@@ -19,10 +19,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lenye/pmsg/cmd/variable"
-	"github.com/lenye/pmsg/internal/flags"
-	"github.com/lenye/pmsg/internal/im/dingtalk/bot"
-	"github.com/lenye/pmsg/pkg/helper"
+	"github.com/BleethNie/pmsg/cmd/variable"
+	"github.com/BleethNie/pmsg/internal/flags"
+	"github.com/BleethNie/pmsg/internal/im/dingtalk/bot"
+	"github.com/BleethNie/pmsg/pkg/helper"
 )
 
 // botCmd 钉钉自定义机器人

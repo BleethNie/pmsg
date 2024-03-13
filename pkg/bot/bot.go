@@ -2,10 +2,10 @@ package bot
 
 import (
 	"fmt"
-	"github.com/lenye/pmsg/cmd/variable"
-	dingTalk "github.com/lenye/pmsg/internal/im/dingtalk/bot"
-	feiShu "github.com/lenye/pmsg/internal/im/feishu/bot"
-	WorkWeiXin "github.com/lenye/pmsg/internal/im/weixin/work/bot"
+	"github.com/BleethNie/pmsg/cmd/variable"
+	dingTalk "github.com/BleethNie/pmsg/internal/im/dingtalk/bot"
+	feiShu "github.com/BleethNie/pmsg/internal/im/feishu/bot"
+	WorkWeiXin "github.com/BleethNie/pmsg/internal/im/weixin/work/bot"
 )
 
 func FeiShuSendText(token string, msg string) bool {

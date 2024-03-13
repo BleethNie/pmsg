@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/lenye/pmsg/cmd"
+	"github.com/BleethNie/pmsg/cmd"
 )
 
 func main() {

@@ -10,7 +10,7 @@
 
 #### 使用二进制发行版
 
-1. 下载 `pmsg` [最新版本](https://github.com/lenye/pmsg/releases)
+1. 下载 `pmsg` [最新版本](https://github.com/BleethNie/pmsg/releases)
 
 1. 开始运行它:
 
@@ -39,20 +39,20 @@
 
 #### linux容器映像
 
-1. `Packages` https://github.com/lenye/pmsg/pkgs/container/pmsg
+1. `Packages` https://github.com/BleethNie/pmsg/pkgs/container/pmsg
 
 1. 拉取容器映像
    ```shell
-   $ docker pull ghcr.io/lenye/pmsg
+   $ docker pull ghcr.io/BleethNie/pmsg
    ```
 
 1. 开始运行它
    ```shell
-   $ docker run --rm ghcr.io/lenye/pmsg --help
+   $ docker run --rm ghcr.io/BleethNie/pmsg --help
    ```
 
 #### 源代码
 
 ```shell
-$ git clone https://github.com/lenye/pmsg.git
+$ git clone https://github.com/BleethNie/pmsg.git
 ```

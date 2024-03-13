@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lenye/pmsg/internal/flags"
-	"github.com/lenye/pmsg/internal/im/dingtalk"
-	"github.com/lenye/pmsg/pkg/httpclient"
+	"github.com/BleethNie/pmsg/internal/flags"
+	"github.com/BleethNie/pmsg/internal/im/dingtalk"
+	"github.com/BleethNie/pmsg/pkg/httpclient"
 )
 
 type CmdSendParams struct {

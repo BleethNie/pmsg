@@ -20,12 +20,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lenye/pmsg/cmd/dingtalk"
-	"github.com/lenye/pmsg/cmd/feishu"
-	"github.com/lenye/pmsg/cmd/slack"
-	"github.com/lenye/pmsg/cmd/weixin"
-	"github.com/lenye/pmsg/cmd/workweixin"
-	"github.com/lenye/pmsg/pkg/version"
+	"github.com/BleethNie/pmsg/cmd/dingtalk"
+	"github.com/BleethNie/pmsg/cmd/feishu"
+	"github.com/BleethNie/pmsg/cmd/slack"
+	"github.com/BleethNie/pmsg/cmd/weixin"
+	"github.com/BleethNie/pmsg/cmd/workweixin"
+	"github.com/BleethNie/pmsg/pkg/version"
 )
 
 // rootCmd represents the base command when called without any subcommands

@@ -19,10 +19,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lenye/pmsg/cmd/variable"
-	"github.com/lenye/pmsg/internal/flags"
-	"github.com/lenye/pmsg/internal/im/weixin/offiaccount/message"
-	"github.com/lenye/pmsg/pkg/helper"
+	"github.com/BleethNie/pmsg/cmd/variable"
+	"github.com/BleethNie/pmsg/internal/flags"
+	"github.com/BleethNie/pmsg/internal/im/weixin/offiaccount/message"
+	"github.com/BleethNie/pmsg/pkg/helper"
 )
 
 // officialAccountSubCmd 微信公众号订阅通知消息

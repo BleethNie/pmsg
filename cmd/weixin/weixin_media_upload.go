@@ -19,10 +19,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lenye/pmsg/cmd/variable"
-	"github.com/lenye/pmsg/internal/flags"
-	"github.com/lenye/pmsg/internal/im/weixin/asset"
-	"github.com/lenye/pmsg/pkg/helper"
+	"github.com/BleethNie/pmsg/cmd/variable"
+	"github.com/BleethNie/pmsg/internal/flags"
+	"github.com/BleethNie/pmsg/internal/im/weixin/asset"
+	"github.com/BleethNie/pmsg/pkg/helper"
 )
 
 // mediaUploadCmd 微信公众号新增临时素材

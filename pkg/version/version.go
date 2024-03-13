@@ -25,7 +25,7 @@ var (
 	BuildCommit = "none"    // git commit
 	BuildTime   = "unknown" // 编译时间
 
-	OpenSource = "https://github.com/lenye/pmsg" // 开发人
+	OpenSource = "https://github.com/BleethNie/pmsg" // 开发人
 )
 
 const versionTemplate = `%s

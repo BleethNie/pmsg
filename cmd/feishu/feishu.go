@@ -17,8 +17,8 @@ package feishu
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/lenye/pmsg/cmd/variable"
-	"github.com/lenye/pmsg/internal/flags"
+	"github.com/BleethNie/pmsg/cmd/variable"
+	"github.com/BleethNie/pmsg/internal/flags"
 )
 
 // Cmd 飞书

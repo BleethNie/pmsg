@@ -20,10 +20,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lenye/pmsg/cmd/variable"
-	"github.com/lenye/pmsg/internal/flags"
-	"github.com/lenye/pmsg/internal/im/weixin/work/message"
-	"github.com/lenye/pmsg/pkg/helper"
+	"github.com/BleethNie/pmsg/cmd/variable"
+	"github.com/BleethNie/pmsg/internal/flags"
+	"github.com/BleethNie/pmsg/internal/im/weixin/work/message"
+	"github.com/BleethNie/pmsg/pkg/helper"
 )
 
 // externalContactCmd 企业微信家校消息
