@@ -1,14 +1,13 @@
 package bot
 
 import (
-	"fmt"
 	"github.com/BleethNie/pmsg/cmd/variable"
 	dingTalk "github.com/BleethNie/pmsg/internal/im/dingtalk/bot"
 	feiShu "github.com/BleethNie/pmsg/internal/im/feishu/bot"
 	WorkWeiXin "github.com/BleethNie/pmsg/internal/im/weixin/work/bot"
 )
 
-func FeiShuSendText(token string, msg string) bool {
+func FeiShuSendText(token string, msg string) error {
 	arg := feiShu.CmdSendParams{
 		UserAgent:   variable.UserAgent,
 		AccessToken: token,
@@ -17,13 +16,10 @@ func FeiShuSendText(token string, msg string) bool {
 		Data:        msg,
 	}
 
-	if err := feiShu.CmdSend(&arg); err != nil {
-		fmt.Println(err)
-	}
-	return true
+	return feiShu.CmdSend(&arg)
 }
 
-func DingTalkSendText(token string, msg string) bool {
+func DingTalkSendText(token string, msg string) error {
 	arg := dingTalk.CmdSendParams{
 		UserAgent:   variable.UserAgent,
 		AccessToken: token,
@@ -32,21 +28,15 @@ func DingTalkSendText(token string, msg string) bool {
 		Data:        msg,
 	}
 
-	if err := dingTalk.CmdSend(&arg); err != nil {
-		fmt.Println(err)
-	}
-	return true
+	return dingTalk.CmdSend(&arg)
 }
 
-func WorkWeiXinSendText(token string, msg string) bool {
+func WorkWeiXinSendText(token string, msg string) error {
 	arg := WorkWeiXin.CmdSendParams{
 		UserAgent: variable.UserAgent,
 		Key:       token,
 		MsgType:   "text",
 		Data:      msg,
 	}
-	if err := WorkWeiXin.CmdSend(&arg); err != nil {
-		fmt.Println(err)
-	}
-	return true
+	return WorkWeiXin.CmdSend(&arg)
 }
